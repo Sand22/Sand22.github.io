@@ -3,6 +3,7 @@ markdown: redcarpet
 highlighter: pygments
   
 # Site settings
+lang: en
 title: "Mind about JavaScript"
 description: > # this means to ignore newlines until "email:"
    how not to get lost amongst JS lines of code
@@ -31,5 +32,5 @@ social:
     share_title:
     share_link:
 
-#gems:
-#  - jekyll-sitemap
+gems:
+  - jekyll-sitemap
