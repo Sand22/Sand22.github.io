@@ -18,6 +18,9 @@ paginate:	5
 url: "http://mindaboutjs.com" # the base hostname & protocol for your site
 baseurl: ""
 
+permalink: pretty
+relative_permalinks: true
+
 # social icons and sharing options
 social:
 
@@ -27,3 +30,6 @@ social:
     share_url:
     share_title:
     share_link:
+
+#gems:
+#  - jekyll-sitemap

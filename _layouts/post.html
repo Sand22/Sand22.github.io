@@ -61,11 +61,19 @@
           <div class="isLeft">
             <h5 class="index-headline featured"><span>Read also</span></h5>
             <section class="author">
-              [recent posts]
+                {% for post in site.related_posts limit:3 %}
+                    <a href="{{ post.url }}">
+                      {{ post.title }}
+                      <br>
+                      <small>{{ post.date | date_to_string }}</small>
+                    </a>
+                    <br><br>
+                {% endfor %}
             </section>
           </div>
           {{/post}}
         </div>
+	      {% include comments.html %}
       </article>
     </main>
     <div class="bottom-closer">
