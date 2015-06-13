@@ -11,7 +11,7 @@ monitor people with heart disease and minimize the need of hospitalization.
 We’ve extensively been using material 
 design as our primary set of UI design principles. In this post I’m going 
 to express my admiration and possibly some doubts about Angular Material. 
-Hence my main point of interest is the Web, I decided to skip the mobile 
+Hence my main point of interest is the web, I decided to skip the mobile 
 part and leave the eventual problems with Android to the smarter guys.
 
 ##tl;dr
