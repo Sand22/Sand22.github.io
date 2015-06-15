@@ -3,7 +3,7 @@ layout: post
 title:  "First impressions on Angular Material"
 date:   2015-06-15
 lang: en
-image: /assets/article_images/angular-material/angular-material.png
+image: /assets/article_images/angular-material/angular-material.jpg
 ---
 
 Recently at my current company we’ve been developing applications to remotely 
