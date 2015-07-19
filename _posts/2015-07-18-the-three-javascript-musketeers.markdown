@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The three JavaScript musketeers"
-date:   2015-06-19
+date:   2015-07-18
 lang: en
 image: /assets/article_images/level-up/musketeers.png
 ---
