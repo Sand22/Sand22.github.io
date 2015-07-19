@@ -99,7 +99,7 @@ But for the sake of simplicity we won't use them, but just write our own little 
 
 ```javascript
  1  function extend(source, destination) {
- 2    for (key in destination) {
+ 2    for (var key in destination) {
  3      if (destination.hasOwnProperty(key)) {
  4        source[key] = destination[key];
  5      }
@@ -179,12 +179,12 @@ when finally *got it*.
 What's all the fuss about it?
 
 First of all, reduce, as you might expect, takes a callback function which
-therefore takes 4 parameters: previous and current element, index of the current
+therefore takes 4 parameters: previously returned value, current value, index of the current
 element, the array reduced was called upon. You can also provide initial value
 for the reduce function, but it's fully optional.
 
-Secondly, it iterates over the array and set the previous and current element
-based on the result returned by the previous call. So, if you have for instance
+Secondly, it iterates over the array and sets the previous value based on the
+result returned by the previous call. So, if you have for instance
 array of 3 elements and execute reduce on it that takes a callback and simply returns
 current element, you end up with something like this:
 
